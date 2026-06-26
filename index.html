@@ -2,23 +2,24 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Weiterleitung…</title>
-
-    <meta http-equiv="refresh" content="0;url=https://www.google.com/maps/d/viewer?mid=1TIlRDBEja9QvV9i3BfS0M16r8lAMCI4&usp=sharing">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weiterleitung zu Collecting Moments...</title>
+    <!-- Backup-Weiterleitung, falls JavaScript deaktiviert ist -->
+    <meta http-equiv="refresh" content="0; url=HIER_DEIN_GOOGLE_MAPS_LINK">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f9f9f9; color: #333; }
+        .loader { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <p>Du wirst zu <strong>Collecting Moments</strong> weitergeleitet...</p>
+        <p><small>Falls nichts passiert, <a href="https://www.google.com/maps/d/viewer?mid=1TIlRDBEja9QvV9i3BfS0M16r8lAMCI4&usp=sharing">klicke bitte hier</a>.</small></p>
+    </div>
 
     <script>
-        window.location.replace("https://www.google.com/maps/d/viewer?mid=1TIlRDBEja9QvV9i3BfS0M16r8lAMCI4&usp=sharing");
+        // Haupt-Weiterleitung über JavaScript
+        window.location.href = "https://www.google.com/maps/d/viewer?mid=1TIlRDBEja9QvV9i3BfS0M16r8lAMCI4&usp=sharing";
     </script>
-</head>
-
-<body>
-    <p>Die Karte wird geöffnet...</p>
-
-    <p>
-        Falls die Weiterleitung nicht funktioniert,
-        <a href="https://www.google.com/maps/d/viewer?mid=1TIlRDBEja9QvV9i3BfS0M16r8lAMCI4&usp=sharing">
-            hier klicken.
-        </a>
-    </p>
 </body>
 </html>
